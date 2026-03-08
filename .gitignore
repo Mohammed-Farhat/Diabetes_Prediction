@@ -1,2 +1,120 @@
 /diabetes_prediction_dataset.csv
 /ml310_env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# Packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python tooling
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# ML and experiment tracking
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+runs/
+ray_results/
+dvc.lock
+.dvc/
+
+# Model artifacts and checkpoints
+artifacts/
+models/
+checkpoints/
+checkpoints-*/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+
+# Data and outputs
+data/
+datasets/
+output/
+outputs/
+results/
+predictions/
+submissions/
+reports/
+figures/
+plots/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
